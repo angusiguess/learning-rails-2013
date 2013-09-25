@@ -1,3 +1,13 @@
+#Assignment 1: MVC and scaffolding.
+
+Using the ```rails scaffold``` command, create a landing page for our site and a
+user with the following fields and types:
+
+name:string
+email:string
+
+
+
 #Setup and Installation
 
 First we'll want to install Ruby. Without ruby none of the rest of the magic can happen!  If we're using OS X, the best way to go is probably homebrew, so let's go ahead and install that.
