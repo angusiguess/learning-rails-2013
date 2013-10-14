@@ -1,0 +1,14 @@
+<% if flash[:alert] -%>
+  <p class='error'><%=h flash[:alert] %></p>
+<% end -%>
+<% if flash[:error] -%>
+  <p class='notice'><%=h flash[:notice] %></p>
+<% end -%>
+
+<%= form_tag("/login", method: "login") do %>
+  <%= label_tag(:user_name, "User Name") %>
+  <%= text_field_tag(:user_name) %>
+  <%= label_tag(:password, "Password") %>
+  <%= password_field(:login, :password) %>
+  <%= submit_tag("Log in") %>
+<% end %>
