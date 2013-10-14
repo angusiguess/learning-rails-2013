@@ -1,3 +1,23 @@
+#Assignment Three
+
+Create a small login system for our site, this will require the following.
+
+A ```User``` model, which has been provided for you. This will have a username, a password, and an e-mail address.
+
+A ```Secure``` view and controller. These will be pages that we'll want to restrict access to.
+
+* This will have one action, index. It will need a ```before_action``` which will determine whether a user can view the ```Secure``` index action. In class we did this with a session variable. 
+
+A ```Login``` controller
+
+* This will have three actions:
+  * a ```get``` action that will deliver the login form.
+  * a ```post``` action that will validate the user.
+  * a ```logout``` action which will log the user out.
+  
+If you have any questions, please don't hesitate to contact me!
+
+
 #Setup and Installation
 
 First we'll want to install Ruby. Without ruby none of the rest of the magic can happen!  If we're using OS X, the best way to go is probably homebrew, so let's go ahead and install that.
